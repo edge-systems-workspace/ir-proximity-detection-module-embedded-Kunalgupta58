@@ -19,14 +19,17 @@
 
 void setup() {
 
-    // TODO 3:
-    // Initialize Serial communication (9600 baud rate)
+     // TODO 3: Initialize Serial communication
+    Serial.begin(9600);
 
-    // TODO 4:
-    // Configure IR pin as INPUT
+    // TODO 4: Configure IR pin as INPUT
+    pinMode(IR_PIN, INPUT);
 
-    // TODO 5:
-    // Print system initialization message
+    // TODO 5: Print system initialization message
+    Serial.println("=================================");
+    Serial.println("   IR Obstacle Detection System  ");
+    Serial.println("   System Initialized Successfully");
+    Serial.println("=================================");
 }
 
 void loop() {
