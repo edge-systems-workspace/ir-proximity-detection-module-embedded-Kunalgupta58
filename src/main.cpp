@@ -47,6 +47,8 @@ void loop() {
     }
 
     Serial.println("---------------------------------");
+   // TODO 8: Add small delay
+    delay(300);
 
     
 }
